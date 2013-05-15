@@ -18,6 +18,10 @@
 		57023F1C1742FB820035B312 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57023F1B1742FB820035B312 /* Default-568h@2x.png */; };
 		57023F1F1742FB820035B312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57023F1E1742FB820035B312 /* ViewController.m */; };
 		57023F221742FB820035B312 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57023F201742FB820035B312 /* ViewController.xib */; };
+		57023F2A1742FB9D0035B312 /* OffScreenMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 57023F291742FB9D0035B312 /* OffScreenMenu.m */; };
+		57023F2C1742FBAF0035B312 /* OffScreenMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57023F2B1742FBAF0035B312 /* OffScreenMenu.xib */; };
+		57F5FFAD174449AF009A2E41 /* OffScreenMenuTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F5FFAC174449AF009A2E41 /* OffScreenMenuTab.m */; };
+		57F5FFAF174449BF009A2E41 /* OffScreenMenuTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57F5FFAE174449BF009A2E41 /* OffScreenMenuTab.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		57023F1D1742FB820035B312 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		57023F1E1742FB820035B312 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		57023F211742FB820035B312 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		57023F281742FB9D0035B312 /* OffScreenMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffScreenMenu.h; sourceTree = "<group>"; };
+		57023F291742FB9D0035B312 /* OffScreenMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffScreenMenu.m; sourceTree = "<group>"; };
+		57023F2B1742FBAF0035B312 /* OffScreenMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffScreenMenu.xib; sourceTree = "<group>"; };
+		57F5FFAB174449AF009A2E41 /* OffScreenMenuTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffScreenMenuTab.h; sourceTree = "<group>"; };
+		57F5FFAC174449AF009A2E41 /* OffScreenMenuTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffScreenMenuTab.m; sourceTree = "<group>"; };
+		57F5FFAE174449BF009A2E41 /* OffScreenMenuTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffScreenMenuTab.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +95,16 @@
 			children = (
 				57023F141742FB820035B312 /* AppDelegate.h */,
 				57023F151742FB820035B312 /* AppDelegate.m */,
+				57023F281742FB9D0035B312 /* OffScreenMenu.h */,
+				57023F291742FB9D0035B312 /* OffScreenMenu.m */,
+				57023F2B1742FBAF0035B312 /* OffScreenMenu.xib */,
+				57F5FFAB174449AF009A2E41 /* OffScreenMenuTab.h */,
+				57F5FFAC174449AF009A2E41 /* OffScreenMenuTab.m */,
+				57F5FFAE174449BF009A2E41 /* OffScreenMenuTab.xib */,
+				57023F0C1742FB820035B312 /* Supporting Files */,
 				57023F1D1742FB820035B312 /* ViewController.h */,
 				57023F1E1742FB820035B312 /* ViewController.m */,
 				57023F201742FB820035B312 /* ViewController.xib */,
-				57023F0C1742FB820035B312 /* Supporting Files */,
 			);
 			path = OffScreenMenu;
 			sourceTree = "<group>";
@@ -163,6 +179,8 @@
 				57023F1A1742FB820035B312 /* Default@2x.png in Resources */,
 				57023F1C1742FB820035B312 /* Default-568h@2x.png in Resources */,
 				57023F221742FB820035B312 /* ViewController.xib in Resources */,
+				57023F2C1742FBAF0035B312 /* OffScreenMenu.xib in Resources */,
+				57F5FFAF174449BF009A2E41 /* OffScreenMenuTab.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +194,8 @@
 				57023F121742FB820035B312 /* main.m in Sources */,
 				57023F161742FB820035B312 /* AppDelegate.m in Sources */,
 				57023F1F1742FB820035B312 /* ViewController.m in Sources */,
+				57023F2A1742FB9D0035B312 /* OffScreenMenu.m in Sources */,
+				57F5FFAD174449AF009A2E41 /* OffScreenMenuTab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +318,7 @@
 				57023F271742FB820035B312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
